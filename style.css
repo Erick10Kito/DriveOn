@@ -472,12 +472,12 @@ align-items: start;
     }
 }
 
-@media(min-width:1500px) {
+@media(min-width:1550px) {
     .comfortably-normal-image, .car-normal-image, .driver-with-passenger-normal-image {
         display: none;
     }
 }
-@media(max-width:1500px) {
+@media(max-width:1550px) {
     .comfortably-lane {
         margin-bottom: 200px;
     }
@@ -794,43 +794,7 @@ align-items: start;
     }
 }
 
-@keyframes moverDireita {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  @keyframes moverEsquerda {
-    0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-  }
 
-  @keyframes moverBaixo {
-    0% {
-      transform: translateY(100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes pulsar {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
   
   .comfortably-normal-image, .comfortably-absolute-image, .driver-with-passenger-absolute-image, .driver-with-passenger-normal-image {
     animation: moverDireita 0.8s linear;
