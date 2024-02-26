@@ -462,6 +462,9 @@ align-items: start;
   .sociais a:hover {
     transform: translateY(-10px);
   }
+  .car-with-image {
+    z-index: 10;
+}
 
 @media(max-width:1680px) {
     .container-large {
@@ -472,7 +475,7 @@ align-items: start;
     }
 }
 
-@media(min-width:1560px) {
+@media(min-width:1580px) {
     .comfortably-normal-image, .car-normal-image, .driver-with-passenger-normal-image {
         display: none;
     }
